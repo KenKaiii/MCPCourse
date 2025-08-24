@@ -36,16 +36,17 @@ cd your-mcp-project
 
 **2. Check out the working example:**
 ```bash
-cd mcp-calculator
-npm install
-npm run build
-npm run inspector  # Opens MCP testing tool
+# Look at the calculator example for reference
+ls mcp-calculator/
+# See the main server code
+cat mcp-calculator/src/index.ts
 ```
 
-**3. Actually read the docs (they're good, promise):**
-- Start with [`docs/mcp-basics.md`](./docs/mcp-basics.md) - Learn MCP concepts
-- Then [`docs/project-structure.md`](./docs/project-structure.md) - Copy-paste templates
-- Finally [`docs/npm-setup.md`](./docs/npm-setup.md) - Publish to NPM
+**3. The docs are for Claude Code or other coding agents to help you:**
+- [`docs/mcp-basics.md`](./docs/mcp-basics.md) - MCP concepts for LLMs
+- [`docs/project-structure.md`](./docs/project-structure.md) - Templates for LLMs to copy
+- [`docs/npm-setup.md`](./docs/npm-setup.md) - Publishing workflow for LLMs
+- These docs help coding agents guide you through building MCP servers
 
 ## 💪 What Makes This Different
 

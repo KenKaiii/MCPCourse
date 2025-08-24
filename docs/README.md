@@ -41,7 +41,7 @@ npm install
 - Check package name availability with `npm view package-name`
 
 ### Claude Code Integration
-- Installation: `claude mcp add npx package-name -s user`
+- Installation: `claude mcp add <name> npx -s user <package-name>`
 - **Critical**: Must restart Claude Code after adding MCP (Ctrl+C twice, then `claude --continue`)
 
 ### Common Patterns

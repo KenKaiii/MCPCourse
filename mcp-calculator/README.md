@@ -35,7 +35,7 @@ npm run build
 ### With Claude Code (Recommended)
 ```bash
 # Add the MCP server to Claude Code
-claude mcp add npx mcp-calculator-server -s user
+claude mcp add calculator npx -s user mcp-calculator-server
 
 # IMPORTANT: After adding, restart Claude Code for changes to take effect:
 # 1. Press Ctrl+C twice to stop Claude Code
