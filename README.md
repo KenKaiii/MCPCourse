@@ -27,10 +27,11 @@ This isn't just another code repo - it's a **complete learning system**:
 
 ## 🚀 Get Started
 
-**1. Clone and explore:**
+**1. Use this template:**
 ```bash
-git clone https://github.com/kenkai/mcp-course
-cd mcp-course
+# Use GitHub's template feature or download/copy the files
+# Then navigate to your new project
+cd your-mcp-project
 ```
 
 **2. Check out the working example:**
