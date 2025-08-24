@@ -1,0 +1,68 @@
+{
+  "//": "Package.json - Project configuration file that tells npm how to handle this package",
+  
+  "name": "mcp-calculator-server",
+  "version": "1.0.0", 
+  "description": "A simple calculator MCP server for basic mathematical operations",
+  "main": "build/index.js", 
+  "type": "module", 
+  
+  "bin": {
+    "//": "Creates executable command 'mcp-calculator' that runs our built server",
+    "mcp-calculator": "./build/index.js"
+  },
+  
+  "files": [
+    "build/",
+    "README.md"
+  ],
+  "//files": "List of files/folders to include when publishing to NPM",
+  
+  "scripts": {
+    "//": "Commands you can run with 'npm run <script-name>'",
+    "build": "tsc && chmod 755 build/index.js",
+    "watch": "tsc --watch", 
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  
+  "keywords": [
+    "mcp",
+    "model-context-protocol", 
+    "calculator",
+    "math",
+    "typescript",
+    "server"
+  ],
+  "//keywords": "Search terms for NPM discovery",
+  
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  
+  "engines": {
+    "//": "Minimum Node.js version required to run this package",
+    "node": ">=18.0.0"
+  },
+  
+  "repository": {
+    "//": "Links to source code repository",
+    "type": "git",
+    "url": "git+https://github.com/yourusername/mcp-calculator.git"
+  },
+  "homepage": "https://github.com/yourusername/mcp-calculator#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/mcp-calculator/issues" 
+  },
+  
+  "dependencies": {
+    "//": "Required packages that get installed with 'npm install'",
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "zod": "^3.22.4"
+  },
+  
+  "devDependencies": {
+    "//": "Development-only packages (not installed in production)",
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
