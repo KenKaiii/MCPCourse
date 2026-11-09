@@ -14,6 +14,9 @@
 
 Tired of wrestling with MCP server setup and confusing docs? Yeah, me too. This course gets you from zero to published NPM package in minutes, not hours.
 
+> [!TIP]
+> **Want to build your own apps with AI?** A free 7-day build challenge and 20+ step-by-step projects are in my free community: **[skool.com/raid](https://www.skool.com/raid)**
+
 ## 🎯 What You Get
 
 This isn't just another code repo - it's a **complete learning system**:
